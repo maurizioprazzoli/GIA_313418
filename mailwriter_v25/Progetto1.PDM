@@ -1,0 +1,199 @@
+[Root]
+Most Recent Package=MailWriter
+
+[Package|Pacchetto di installazione standard 1|Progetto1]
+Icon1=MailWriter.exe
+Title1=Progetto1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Pacchetto di installazione standard 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\mailwriter\Mail Writer
+
+[Package|Pacchetto di installazione standard 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Pacchetto di installazione standard 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Pacchetto di installazione standard 1|Files Found]
+
+[Package|Pacchetto di installazione standard 1|Files Released]
+
+[Package|Pacchetto di installazione standard 1|Missing Dependency Information]
+C:\Programmi\Microsoft Office\Office\MSOUTL85.OLB=
+
+[Package|Pacchetto di installazione standard 1|Out-of-Date Dependency Information]
+
+[Package|Pacchetto di installazione standard 1|Files Added]
+
+[Package|Pacchetto di installazione standard 1|Files Removed]
+
+[Package|Pacchetto di installazione standard 1|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\asycfilt.dll=Yes
+C:\WINNT\system32\stdole2.tlb=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6IT.DLL=Yes
+C:\Programmi\Microsoft Office\Office\MSOUTL85.OLB=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\mailwriter\Mail Writer\MailWriter.exe=Yes
+
+[Package|Pacchetto di installazione standard 1|Configure Registry Files]
+Applicable=No
+
+[Package|Pacchetto di installazione standard 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Pacchetto di installazione standard 1|Install Locations]
+C:\Documents and Settings\piacitaly\Desktop\Mail Writer\MailWriter.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6IT.DLL=$(WinSysPath)
+C:\Programmi\Microsoft Office\Office\MSOUTL85.OLB=$(WinSysPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\mailwriter\Mail Writer\MailWriter.exe=$(AppPath)
+
+[Package|Pacchetto di installazione standard 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\piacitaly\Desktop\Mail Writer\MailWriter.exe=No
+C:\mailwriter\Mail Writer\MailWriter.exe=No
+
+[Package|Pacchetto di installazione standard 1|Distribution]
+Type=single
+Size=
+Title=MailWriter
+
+[Package|Pacchetto di installazione standard 1|IconGroups]
+Group0=MailWriter
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|Pacchetto di installazione standard 1|MailWriter]
+Icon1=MailWriter.exe
+Title1=MailWriter
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Pacchetto di installazione standard 1|Package]
+PackageFolder=C:\mailwriter\Mail Writer
+ProjectFolder=C:\mailwriter\Mail Writer
+ServerSideCab=
+File1=C:\mailwriter\Mail Writer\setup.exe
+File2=C:\mailwriter\Mail Writer\Setup.Lst
+File3=C:\mailwriter\Mail Writer\MailWriter.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|MailWriter|Progetto1]
+Icon1=MailWriter.exe
+Title1=Progetto1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|MailWriter|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\mailwriter\Mail Writer
+
+[Package|MailWriter|Configure DAO ISAMs]
+Applicable=No
+
+[Package|MailWriter|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|MailWriter|Files Found]
+
+[Package|MailWriter|Files Released]
+
+[Package|MailWriter|Missing Dependency Information]
+C:\Programmi\Microsoft Office\Office\MSOUTL85.OLB=
+
+[Package|MailWriter|Out-of-Date Dependency Information]
+
+[Package|MailWriter|Files Added]
+
+[Package|MailWriter|Files Removed]
+
+[Package|MailWriter|Files In Project]
+C:\WINNT\system32\msvbvm60.dll=Yes
+C:\WINNT\system32\oleaut32.dll=Yes
+C:\WINNT\system32\olepro32.dll=Yes
+C:\WINNT\system32\asycfilt.dll=Yes
+C:\WINNT\system32\stdole2.tlb=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\VB6IT.DLL=Yes
+C:\Programmi\Microsoft Office\Office\MSOUTL85.OLB=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\mailwriter\Mail Writer\MailWriter.exe=Yes
+
+[Package|MailWriter|Configure Registry Files]
+Applicable=No
+
+[Package|MailWriter|Configure Remote Servers]
+Applicable=No
+
+[Package|MailWriter|Install Locations]
+C:\Documents and Settings\piacitaly\Desktop\Mail Writer\MailWriter.exe=$(AppPath)
+C:\WINNT\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINNT\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB6IT.DLL=$(WinSysPath)
+C:\Programmi\Microsoft Office\Office\MSOUTL85.OLB=$(WinSysPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Programmi\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\mailwriter\Mail Writer\MailWriter.exe=$(AppPath)
+
+[Package|MailWriter|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\piacitaly\Desktop\Mail Writer\MailWriter.exe=No
+C:\mailwriter\Mail Writer\MailWriter.exe=No
+
+[Package|MailWriter|Distribution]
+Type=single
+Size=
+Title=MailWriter
+
+[Package|MailWriter|Package]
+PackageFolder=C:\mailwriter\Mail Writer
+ProjectFolder=C:\mailwriter\Mail Writer
+ServerSideCab=
+File1=C:\mailwriter\Mail Writer\setup.exe
+File2=C:\mailwriter\Mail Writer\Setup.Lst
+File3=C:\mailwriter\Mail Writer\MailWriter.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|MailWriter|IconGroups]
+Group0=MailWriter
+PrivateGroup0=Falso
+Parent0=$(Programs)
+
+[Package|MailWriter|MailWriter]
+Icon1=MailWriter.exe
+Title1=MailWriter
+StartIn1=$(AppPath)
+Key1=Icon1
