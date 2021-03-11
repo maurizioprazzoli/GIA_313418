@@ -2,7 +2,7 @@ USE GIA_313418;
 
 IF EXISTS (SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_NAME = N'Producer')
 BEGIN
-    ALTER TABLE [Producer]				DROP CONSTRAINT IF EXISTS [FK_Producer_CategoryID_Category_ID];
+    	ALTER TABLE [Producer]				DROP CONSTRAINT IF EXISTS [FK_Producer_CategoryID_Category_ID];
 	ALTER TABLE [Producer]				DROP CONSTRAINT IF EXISTS [FK_Producer_RegionID_Region_ID];
 END
 
@@ -70,7 +70,7 @@ CREATE TABLE			[Producer] (
   [CategoryID]			smallint		NOT NULL,
   [RegionID]			tinyint			NOT NULL,
   [TemplateName]		nvarchar(255)		NOT NULL,
-  CONSTRAINT [PK_Producer] 	PRIMARY KEY ( [Code] )
+  CONSTRAINT [PK_Producer] 	PRIMARY KEY 	( [Code] )
 );
 ALTER TABLE [Producer]			ADD CONSTRAINT [FK_Producer_CategoryID_Category_ID]
 								FOREIGN KEY([CategoryID]) REFERENCES [Category] ([ID])
@@ -96,7 +96,7 @@ ALTER TABLE [ProducerDetail]	ADD CONSTRAINT [FK_ProducerCode_ProducerCode_Produc
 CREATE TABLE [Website] (
   [ID]					tinyint			NOT NULL,
   [SiteName]				nvarchar(50)		NOT NULL,
-  [SiteAlias]			n	varchar(50)		NULL,
+  [SiteAlias]				nvarchar(50)		NULL,
   CONSTRAINT [PK_Website]		PRIMARY KEY 	( [ID] ),
   CONSTRAINT [UC_Website]		UNIQUE		( [SiteName] )
 );
@@ -163,7 +163,7 @@ CREATE TABLE [Visit] (
   [IsClientFromMail]		bit			NULL,
   [ClientReferrerPage]		nvarchar(255)		NULL,
   [ClientMailCampaign]		nvarchar(255)		NULL,
-  CONSTRAINT [PK_Visit] PRIMARY KEY ( [ID] )
+  CONSTRAINT [PK_Visit] 	PRIMARY KEY 	( [ID] )
 );
 ALTER TABLE [Visit]				ADD CONSTRAINT [FK_Visit_WebsiteID_Website_ID]
 								FOREIGN KEY([WebsiteID])	REFERENCES [Website] ([ID])
